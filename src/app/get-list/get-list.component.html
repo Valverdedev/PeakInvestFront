@@ -1,0 +1,32 @@
+<div class="card">
+  <div class="card-header">Consultar Pessoa</div>
+  <div class="card-body">
+    <form [formGroup]="form">
+      <div class="row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Digite o Id"
+            aria-label="First name"
+            formControlName="Id"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Last name"
+            formControlName="nome"
+          />
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary" (click)="Buscar()">
+            <i class="fas fa-plus-circle">Buscar</i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div></div>
+  </div>
+</div>

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PeakInvest';
+ public title: string = 'valverde';
+
+  public todo: any[] = []
+
+
+  constructor() {
+    this.title
+console.log(this.title)
+  }
 }
